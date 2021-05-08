@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0;
+  }
+.panelD{
+    display: block;
+    margin:0 auto;
+    padding: 20px;
+    background-color: cadetblue;
+    width: 340px;
+    height: 320px;
+    border-radius: 25px;
+}
+.panelD td button{
+    display:block;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+}
+#acumulado{
+    display: block;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 50px;
+    width: 270px;
+    height: 80px;
+    background-color:rgb(201, 206, 219);
+    border-radius: 10px;
+    color: rgb(231, 12, 12);
+}
+
+#resultado{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 60px;
+    background-color:rgb(11, 226, 155);
+    border-radius: 10px;
+    color: rgb(1, 2, 12);
+}
+.fila{
+    text-align: center;
+}

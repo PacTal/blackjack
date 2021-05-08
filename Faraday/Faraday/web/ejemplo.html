@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link type="text/css" href="{% static '/style.css' %}" rel="stylesheet"/>
+        <title>21 Black Jack</title>
+    </head>
+    <body onload="inizio();">
+        <table class="panelD">
+            <tr>  <!--primera fila-->      
+                <td> <button id="play">R</button></td>  <!--columna 1-->
+                <td> <button id="dos">2</button></td> <!--columna 2-->
+                <td> <button id="tres">3</button></td> <!--columna 3-->
+                <td> <button id="uno">1</button></td>  <!--columna 4-->
+            </tr>
+            <!--segunda fila-->
+            <tr>
+                <td colspan="4"> <span id="acumulado"> </span></td>  <!--Segunda fila con 3 colunas-->
+            </tr>
+            <!--tercera fila-->
+            <tr>
+                <td colspan="4"> <span id="resultado"> </span></td>  <!--Segunda fila con 3 colunas-->
+            </tr>
+        </table>      
+        <script src="{% static '/lib/calculos.js' %}"></script>
+    </body>
+</html>
